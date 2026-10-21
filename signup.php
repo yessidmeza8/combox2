@@ -42,6 +42,10 @@
     }
     else
         echo"<br>User hasn't been created into supa database!!";
+
+
+    echo "<script>alert('User has been created succesfully :::')</script>";
+    header('refresh:0;url=login.html');
     //mostrar los datos 
     /*
     echo"<br>Fisrt name is: ". $f_name;
